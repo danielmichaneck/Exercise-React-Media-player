@@ -1,0 +1,15 @@
+.body {
+    display: grid;
+    grid-template-areas: "header"
+                         "player"
+                         "playlist-display";
+    background-color: black;
+    color: white;
+}
+
+@media (width > 600px) {
+.body {
+    grid-template-areas: "header header"
+                         "playlist-display player";
+}
+}

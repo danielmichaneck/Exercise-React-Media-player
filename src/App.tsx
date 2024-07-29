@@ -1,7 +1,16 @@
+import { Body } from "./components/Body.tsx";
+import { PlaylistDisplay } from "./components/PlaylistDisplay.tsx";
+import { SongDisplay } from "./components/SongDisplay";
+
+import "./data.ts";
+import { songList } from "./data.ts";
+
 export function App() {
   return (
     <>
-      <h1>This is the App component</h1>
+      <main>
+        <Body/>
+      </main>
     </>
   );
 }
