@@ -1,3 +1,32 @@
 .player {
     grid-area: player;
+    display: grid;
+    grid-template-areas: "i i i i i i"
+                         "a a a a a a"
+                         "t t t t t t";
+    width: 50vh;
+    justify-content: center;
+    background-color: rgba(72, 0, 255, 0.25);;
+    margin-left: 0;
+    padding: 0.5rem;
+}
+
+.playerImage {
+    grid-area: i;
+    width: 240px;
+    height: 240px;
+}
+
+.playerArtist {
+    grid-area: a;
+}
+
+.playerTitle {
+    grid-area: t;
+}
+
+@media (width > 640px) {
+.player {
+    margin-left: 1rem;
+}
 }

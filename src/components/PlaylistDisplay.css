@@ -1,5 +1,5 @@
 .playlist-display {
-    background-color: blue;
+    background-color: rgba(72, 0, 255, 0.25);
     color: white;
     grid-area: playlist-display;
 }

@@ -3,11 +3,13 @@
     grid-template-areas: "header"
                          "player"
                          "playlist-display";
-    background-color: black;
+    background-image: url("src/assets/Images/BackgroundPattern.jpg");
     color: white;
+    justify-content: center;
+    padding: 1rem;
 }
 
-@media (width > 600px) {
+@media (width > 640px) {
 .body {
     grid-template-areas: "header header"
                          "playlist-display player";
