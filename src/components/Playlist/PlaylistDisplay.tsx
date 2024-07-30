@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import { songList } from "../data";
+import { songList } from "../../data";
 import { SongDisplay } from "./SongDisplay";
 
 import "./PlaylistDisplay.css"

@@ -1,16 +1,15 @@
-.body {
+.content {
     display: grid;
     grid-template-areas: "header"
                          "player"
                          "playlist-display";
-    background-image: url("src/assets/Images/BackgroundPattern.jpg");
     color: white;
     justify-content: center;
     padding: 1rem;
 }
 
-@media (width > 640px) {
-.body {
+@media (width > 700px) {
+.content {
     grid-template-areas: "header header"
                          "playlist-display player";
 }

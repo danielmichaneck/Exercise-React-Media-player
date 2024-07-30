@@ -1,7 +1,8 @@
 import { ReactElement } from "react";
-import { ISongInformation } from "../interfaces";
+import { ISongInformation } from "../../interfaces";
 
 import "./SongDisplay.css";
+import { PlayerImage } from "../Player/PlayerImage";
 
 interface ISongDisplayProps {
     info: ISongInformation;

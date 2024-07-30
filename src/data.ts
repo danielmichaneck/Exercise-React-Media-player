@@ -9,9 +9,9 @@ import img6 from "./assets/Images/6.jpg";
 import img7 from "./assets/Images/7.jpg";
 import img8 from "./assets/Images/8.jpg";
 
-export const images: string[] = [
-    img1, img2, img3, img4, img5, img6, img7, img8
-]
+// export const images: string[] = [
+//     img1, img2, img3, img4, img5, img6, img7, img8
+// ]
 
 export const songList: ISongList = {
     id: "list",

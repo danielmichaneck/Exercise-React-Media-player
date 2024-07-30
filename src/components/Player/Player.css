@@ -1,0 +1,48 @@
+.player {
+    grid-area: player;
+    display: grid;
+    width: 50vh;
+    justify-content: center;
+    align-content: start;
+    background-color: rgba(72, 0, 255, 0.25);
+    margin-left: 0;
+    padding: 0.5rem;
+    
+}
+
+.playerFigure {
+    margin: 1.5rem;
+    margin-bottom: 0;
+}
+
+.playerImage {
+    max-width: 100%;
+}
+
+.playerSongContainer {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.playerAddCircle {
+    grid-area: d;
+}
+
+.playerFavorite {
+    grid-area: f;
+}
+
+.playerSongInformation {
+    grid-area: s;
+}
+
+@media (width > 640px) {
+.player {
+    margin-left: 1rem;
+}
+}
