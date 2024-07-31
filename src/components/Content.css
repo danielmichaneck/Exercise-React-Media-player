@@ -5,7 +5,8 @@
                          "playlist-display";
     color: whitesmoke;
     justify-content: center;
-    padding: 1rem;
+    width: 80%;
+    margin-left: 10%;
 }
 
 @media (width > 700px) {

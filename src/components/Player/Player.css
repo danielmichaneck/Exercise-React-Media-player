@@ -1,13 +1,11 @@
 .player {
     grid-area: player;
     display: grid;
-    width: 50vh;
     justify-content: center;
     align-content: start;
     background-color: rgba(72, 0, 255, 0.25);
-    margin-left: 0;
     padding: 0.5rem;
-    
+    width: 50vh;
 }
 
 .playerFigure {
@@ -34,17 +32,17 @@
     font-weight: 600;
 }
 
-/* .playerAddCircle {
-    grid-area: d;
+.playerAddCircle {
+    background-color: rgb(7, 0, 36);
+    padding: 0.5rem;
+    border-radius: 2rem;
 }
 
 .playerFavorite {
-    grid-area: f;
+    background-color: rgb(7, 0, 36);
+    padding: 0.5rem;
+    border-radius: 2rem;
 }
-
-.playerSongInformation {
-    grid-area: s;
-} */
 
 .playerProgress {
     display: flex;
@@ -78,8 +76,15 @@
     bottom: 1rem;
 }
 
-@media (width > 640px) {
-.player {
-    margin-left: 1rem;
+.player-options {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+    background-color: rgb(7, 0, 36);
+    border-radius: 1rem;
 }
+
+.play-arrow {
+    font-size: 3rem;
 }
