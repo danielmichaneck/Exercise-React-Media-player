@@ -60,14 +60,14 @@ export const songList: ISongList = {
         },
         {
             id: "song7",
-            artist: "Robin",
+            artist: "Comet",
             duration: 345,
             image: img7,
             title: "Sound of nothing"
         },
         {
             id: "song8",
-            artist: "Robin",
+            artist: "Comet",
             duration: 265,
             image: img8,
             title: "What you gonna do"

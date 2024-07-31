@@ -3,7 +3,7 @@
     grid-template-areas: "header"
                          "player"
                          "playlist-display";
-    color: white;
+    color: whitesmoke;
     justify-content: center;
     padding: 1rem;
 }

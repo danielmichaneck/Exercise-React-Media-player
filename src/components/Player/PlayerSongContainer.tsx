@@ -13,5 +13,6 @@ export function PlayerSongContainer({artist, title}: IPlayerSongContainerProps):
         <span className="material-symbols-outlined playerAddCircle"> add_circle </span>
         <PlayerSongInformation artist={artist} title={title}/>
         <span className="material-symbols-outlined playerFavorite"> favorite </span>
+        
     </div>
 }
